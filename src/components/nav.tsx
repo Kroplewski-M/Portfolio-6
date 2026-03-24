@@ -20,9 +20,6 @@ export default function Nav() {
           >
             Projects
           </a>
-          <a href="#contact" className="hover:border-b-2 hover:border-teal-400">
-            Contact
-          </a>
           <a
             href="https://github.com/Kroplewski-M"
             target="_blank"
@@ -67,13 +64,6 @@ export default function Nav() {
               onClick={() => setMenuOpen(false)}
             >
               Projects
-            </a>
-            <a
-              href="#contact"
-              className="hover:border-b-2 hover:border-teal-400"
-              onClick={() => setMenuOpen(false)}
-            >
-              Contact
             </a>
             <a
               href="https://github.com/Kroplewski-M"

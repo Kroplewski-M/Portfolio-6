@@ -99,9 +99,6 @@ export default function Hero() {
           <button className="rounded-full bg-teal-400 py-2 px-5 text-black font-medium text-sm cursor-pointer transition-all duration-300 hover:bg-teal-300 hover:shadow-lg hover:shadow-teal-900/50">
             View Projects
           </button>
-          <button className="rounded-full border border-teal-400 text-white py-2 px-5 text-sm cursor-pointer transition-all duration-300 hover:bg-teal-400/10 hover:shadow-lg hover:shadow-teal-900/50">
-            Get in touch
-          </button>
 
           <div className="w-px h-6 bg-gray-700 mx-1" />
 
