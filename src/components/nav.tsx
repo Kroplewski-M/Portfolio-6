@@ -1,5 +1,6 @@
 import { useState } from "react";
 import GithubSvg from "../svg/githubSvg";
+import LinkedinSvg from "../svg/linkedinSvg";
 
 export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,9 +25,18 @@ export default function Nav() {
             href="https://github.com/Kroplewski-M"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-teal-400 text-white py-2 px-5 text-sm cursor-pointer transition-all duration-300 hover:bg-teal-400/10 hover:shadow-lg hover:shadow-teal-900/50"
+            className="hover:text-white"
           >
             <GithubSvg />
+          </a>
+          <a
+            href="https://linkedin.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:text-white transition-colors duration-300"
+            aria-label="LinkedIn"
+          >
+            <LinkedinSvg />
           </a>
         </div>
         {!menuOpen && (
@@ -69,9 +79,18 @@ export default function Nav() {
               href="https://github.com/Kroplewski-M"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full border border-teal-400 text-white py-2 px-5 text-sm cursor-pointer transition-all duration-300 hover:bg-teal-400/10 hover:shadow-lg hover:shadow-teal-900/50"
+              className="hover:text-white"
             >
               <GithubSvg />
+            </a>
+            <a
+              href="https://linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-white transition-colors duration-300"
+              aria-label="LinkedIn"
+            >
+              <LinkedinSvg />
             </a>
           </div>
         </div>
