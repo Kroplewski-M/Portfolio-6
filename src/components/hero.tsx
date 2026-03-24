@@ -96,9 +96,12 @@ export default function Hero() {
 
         {/* CTA buttons + social links */}
         <div className="flex items-center gap-4 mt-10 flex-wrap justify-center">
-          <button className="rounded-full bg-teal-400 py-2 px-5 text-black font-medium text-sm cursor-pointer transition-all duration-300 hover:bg-teal-300 hover:shadow-lg hover:shadow-teal-900/50">
+          <a
+            href="#projects"
+            className="rounded-full bg-teal-400 py-2 px-5 text-black font-medium text-sm cursor-pointer transition-all duration-300 hover:bg-teal-300 hover:shadow-lg hover:shadow-teal-900/50"
+          >
             View Projects
-          </button>
+          </a>
 
           <div className="w-px h-6 bg-gray-700 mx-1" />
 
