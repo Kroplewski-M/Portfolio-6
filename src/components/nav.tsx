@@ -1,4 +1,5 @@
 import { useState } from "react";
+import GithubSvg from "../svg/githubSvg";
 
 export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,10 +26,10 @@ export default function Nav() {
           <a
             href="https://github.com/Kroplewski-M"
             target="_blank"
-            referrerPolicy="no-referrer"
-            className="rounded-full border border-teal-800 py-2 px-4 hover:shadow-lg shadow-teal-800"
+            rel="noopener noreferrer"
+            className="rounded-full border border-teal-400 text-white py-2 px-5 text-sm cursor-pointer transition-all duration-300 hover:bg-teal-400/10 hover:shadow-lg hover:shadow-teal-900/50"
           >
-            GitHub&thinsp;↗
+            <GithubSvg />
           </a>
         </div>
         {!menuOpen && (
@@ -77,10 +78,10 @@ export default function Nav() {
             <a
               href="https://github.com/Kroplewski-M"
               target="_blank"
-              referrerPolicy="no-referrer"
-              className="rounded-full border border-teal-800 py-2 px-4 hover:shadow-lg shadow-teal-800"
+              rel="noopener noreferrer"
+              className="rounded-full border border-teal-400 text-white py-2 px-5 text-sm cursor-pointer transition-all duration-300 hover:bg-teal-400/10 hover:shadow-lg hover:shadow-teal-900/50"
             >
-              GitHub&thinsp;↗
+              <GithubSvg />
             </a>
           </div>
         </div>
