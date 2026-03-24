@@ -4,8 +4,7 @@ const projects = [
   {
     name: "student_showcase",
     description:
-      "A platform for students to showcase their projects and portfolios, built with TypeScript.",
-    language: "TypeScript",
+      "A platform for students to showcase their projects and portfolios. External users can find students based on semantic search.",
     tags: [
       "TypeScript",
       "Rust",
@@ -16,27 +15,22 @@ const projects = [
     ],
     url: "https://github.com/Kroplewski-M/student_showcase",
     live_url: "https://huddersfieldshowcase.cloud/",
-    stars: 0,
   },
   {
     name: "CodeConnect",
     description:
       "A social media platform built for developers. Create profiles, share work, and connect with like-minded people. Built with Blazor WebAssembly and a C# Web API backend.",
-    language: "C#",
     tags: ["Blazor", "C#", ".NET", "EF Core", "Azure", "SignalR"],
     url: "https://github.com/Kroplewski-M/CodeConnect",
     live_url: "",
-    stars: 3,
   },
   {
     name: "rust_auth",
     description:
       "An authentication service written in Rust, covering registration, login, and token-based session management.",
-    language: "Rust",
     tags: ["Rust", "Actix"],
     url: "https://github.com/Kroplewski-M/rust_auth",
     live_url: "",
-    stars: 0,
   },
 ];
 
@@ -167,14 +161,6 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-
-                {/* Stars */}
-                {project.stars > 0 && (
-                  <span className="flex items-center gap-1 text-xs text-gray-500">
-                    <StarIcon />
-                    {project.stars}
-                  </span>
-                )}
               </div>
             </div>
           ))}
