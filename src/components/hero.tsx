@@ -78,7 +78,7 @@ export default function Hero() {
 
         {/* Bio */}
         <p className="text-gray-400/90 md:w-[60%] w-[80%] text-sm mt-8">
-          Full-stack developer with a passion for building things from scratch —
+          Full-stack developer with a passion for building things from scratch,
           whether that's a Rust backend or a Next.js frontend.
         </p>
 
