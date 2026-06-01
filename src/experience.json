@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Graduate Software Developer",
+    "company": "Ascendant Solutions",
+    "from": "May 2024",
+    "to": "Present",
+    "tools": [
+      ".Net 4.8",
+      ".Net Core",
+      "MSSQL",
+      "EF Core",
+      "EF 6",
+      "MVC",
+      "JQuery"
+    ]
+  },
+  {
+    "title": "Undergraduate Software Developer",
+    "company": "Ascendant Solutions",
+    "from": "May 2024",
+    "to": "May 2026",
+    "tools": [
+      ".Net 4.8",
+      ".Net Core",
+      "MSSQL",
+      "EF Core",
+      "EF 6",
+      "MVC",
+      "JQuery"
+    ]
+  }
+]
