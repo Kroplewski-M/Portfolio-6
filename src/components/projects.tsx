@@ -7,7 +7,7 @@ const projects = [
       "A platform for students to showcase their projects and portfolios. External users can find students based on semantic search.",
     tags: [
       "NextJS",
-      "TailwindCSS"
+      "TailwindCSS",
       "TypeScript",
       "Rust",
       "Actix",
