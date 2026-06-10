@@ -6,12 +6,16 @@ const projects = [
     description:
       "A platform for students to showcase their projects and portfolios. External users can find students based on semantic search.",
     tags: [
+      "NextJS",
+      "TailwindCSS"
       "TypeScript",
       "Rust",
+      "Actix",
       "Docker",
       "Nginx",
       "Postgres",
       "Semantic Search",
+      "FastEmbed"
     ],
     url: "https://github.com/Kroplewski-M/student_showcase",
     live_url: "https://huddersfieldshowcase.cloud/",
@@ -20,7 +24,7 @@ const projects = [
     name: "CodeConnect",
     description:
       "A social media platform built for developers. Create profiles, share work, and connect with like-minded people. Built with Blazor WebAssembly and a C# Web API backend.",
-    tags: ["Blazor", "C#", ".NET", "EF Core", "Azure", "SignalR"],
+    tags: ["Blazor", "C#", ".NET", "EF Core", "Azure", "SignalR", "MSSQL", "TailwindCSS"],
     url: "https://github.com/Kroplewski-M/CodeConnect",
     live_url: "",
   },
