@@ -15,7 +15,7 @@ const projects = [
       "Nginx",
       "Postgres",
       "Semantic Search",
-      "FastEmbed"
+      "FastEmbed",
     ],
     url: "https://github.com/Kroplewski-M/student_showcase",
     live_url: "https://huddersfieldshowcase.cloud/",
@@ -24,7 +24,16 @@ const projects = [
     name: "CodeConnect",
     description:
       "A social media platform built for developers. Create profiles, share work, and connect with like-minded people. Built with Blazor WebAssembly and a C# Web API backend.",
-    tags: ["Blazor", "C#", ".NET", "EF Core", "Azure", "SignalR", "MSSQL", "TailwindCSS"],
+    tags: [
+      "Blazor",
+      "C#",
+      ".NET",
+      "EF Core",
+      "Azure",
+      "SignalR",
+      "MSSQL",
+      "TailwindCSS",
+    ],
     url: "https://github.com/Kroplewski-M/CodeConnect",
     live_url: "",
   },
@@ -38,7 +47,7 @@ const projects = [
   },
   {
     name: "cargo play",
-    describtion: "A terminal based music player written in Rust.",
+    description: "A terminal based music player written in Rust.",
     tags: ["Rust", "Ratatui"],
     url: "https://github.com/Kroplewski-M/Cargo-Play/tree/master",
   },
