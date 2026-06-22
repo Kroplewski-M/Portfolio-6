@@ -36,6 +36,12 @@ const projects = [
     url: "https://github.com/Kroplewski-M/rust_auth",
     live_url: "",
   },
+  {
+    name: "cargo play",
+    describtion: "A terminal based music player written in Rust.",
+    tags: ["Rust", "Ratatui"],
+    url: "https://github.com/Kroplewski-M/Cargo-Play/tree/master",
+  },
 ];
 
 function ExternalLinkIcon() {
