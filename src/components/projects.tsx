@@ -49,7 +49,13 @@ const projects = [
     name: "cargo play",
     description: "A terminal based music player written in Rust.",
     tags: ["Rust", "Ratatui"],
-    url: "https://github.com/Kroplewski-M/Cargo-Play/tree/master",
+    url: "https://github.com/Kroplewski-M/Cargo-Play",
+  },
+  {
+    name: "whacker-rs",
+    description: "Rust http load tester ",
+    tags: ["Rust", "hyper", "tokio"],
+    url: "https://github.com/Kroplewski-M/whacker-rs",
   },
 ];
 
