@@ -107,7 +107,7 @@ export default function Hero() {
 
           {/* GitHub */}
           <a
-            href="https://github.com/"
+            href="https://github.com/Kroplewski-M"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-white transition-colors duration-300"
@@ -118,7 +118,7 @@ export default function Hero() {
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/mateusz-kroplewski-732239176/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-white transition-colors duration-300"

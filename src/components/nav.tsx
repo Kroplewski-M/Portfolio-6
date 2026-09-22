@@ -30,7 +30,7 @@ export default function Nav() {
             <GithubSvg />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/mateusz-kroplewski-732239176/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-white transition-colors duration-300"
